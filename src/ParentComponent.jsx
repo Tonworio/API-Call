@@ -22,10 +22,10 @@ const ParentComponent = () => {
           }, 2000);
         })
         .catch((err) => {
-          setError("failed to load Data", err);
+          setError("failed to load Data");
           setLoading(false);
         });
-      //.catch((err)=>console.log(err))
+    
     }
   }, [showData]);
 
